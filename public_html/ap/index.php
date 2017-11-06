@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../assets/stylesheets/style.css?v=2017101600">
   <link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive.css?v=2017101600">
   <link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive2.css?v=2017101600">
-  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/ap.css?v=2017101600">
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/ap.css?v=2017110400">
 
   <link rel="stylesheet" href="../assets/stylesheets/normalize.css">
   <link rel="stylesheet" href="../assets/stylesheets/demo.css">
@@ -167,11 +167,11 @@
 
       </div>
 
+      <div class='money-back-guarantee'>90 Day Money Back Guarantee</div>
+
       <div class="tarr"></div>
 
       <a href="bug-shield-pro-step-2.php" class="lrge-btn3">ORDER BugShieldPro</a>
-      
-      <div class='money-back-guarantee'>90 Day Money Back Guarantee</div>
     </div>
   </div>
   <div class="section lato-reg" id="block-section3">

@@ -1,0 +1,190 @@
+.top-logo {
+  position: relative;
+}
+
+.top-logo:before {
+  content: '';
+  display: block;
+  width: 75px;
+  height: 56px;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  background: transparent url('../images/moneyback.png') no-repeat center center;
+  background-size: 75px auto;
+  z-index: 999;
+}
+
+#block-section1 .container {
+  position: relative;
+}
+
+#block-section1 .money-back-guarantee {
+  display: none;
+}
+
+#block-section2 .container {
+  position: relative;
+}
+
+#block-section2 .money-back-guarantee {
+  display: block;
+  width: 200px;
+  height: 150px;
+  margin: 5px auto;
+  background: transparent url('../images/moneyback.png') no-repeat center center;
+  background-size: 200px auto;
+  text-indent: -9999px;
+}
+
+#customer-reviews .money-back-guarantee {
+  margin: 15px auto;
+  width: 250px;
+  height: 188px;
+  background: transparent url('../images/moneyback.png') no-repeat center center;
+  background-size: 250px auto;
+  text-indent: -9999px;
+}
+
+#block-section5 .money-back-guarantee {
+  margin: 15px auto;
+  width: 250px;
+  height: 188px;
+  background: transparent url('../images/moneyback.png') no-repeat center center;
+  background-size: 250px auto;
+  text-indent: -9999px;
+}
+
+#block-section7 .container {
+  position: relative;
+}
+
+#block-section7 .container::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 75px;
+  position: absolute;
+  bottom: -60px;
+  right: -30px;
+  background: transparent url('../images/moneyback.png') no-repeat center center;
+  background-size: 100px auto;
+}
+
+@media (min-width: 480px) {
+  .top-logo:before {
+    width: 101px;
+    height: 76px;
+    bottom: auto;
+    top: 50%;
+    right: -130px;
+    margin-top: -38px;
+    background-size: 101px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-logo::before {
+    content: none;
+  }
+
+  #block-section1 .container {
+    padding-top: 100px;
+  }
+
+  #block-section1 h2 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  #block-section1 .money-back-guarantee {
+    display: block;
+    width: 300px;
+    height: 225px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+    background: transparent url('../images/moneyback.png') no-repeat center center;
+    background-size: 300px auto;
+    text-indent: -9999px;
+  }
+
+  #block-section2 .money-back-guarantee {
+    margin: 0;
+    position: absolute;
+    bottom: 90px;
+    right: -30px;
+    bottom: -40px;
+    right: 0;
+  }
+
+  #block-section7 p {
+    padding-left: 120px;
+    padding-right: 30px
+  }
+
+  #block-section7 .container::before {
+    width: 133px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    background-size: 133px auto;
+    z-index: 999;
+  }
+}
+
+@media (min-width: 960px) {
+  #block-section1 .container {
+    padding-top: 100px;
+  }
+
+  #block-section1 h2 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  #block-section2 .money-back-guarantee {
+    bottom: -20px;
+    right: -20px;
+  }
+
+  #customer-reviews .money-back-guarantee {
+    width: 300px;
+    height: 225px;
+    background-size: 300px auto;
+  }
+
+  #block-section5 .money-back-guarantee {
+    width: 300px;
+    height: 225px;
+    background-size: 300px auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  #block-section1 .container {
+    padding-top: 100px;
+  }
+
+  #block-section1 h2 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  #block-section1 .money-back-guarantee {
+    width: 350px;
+    height: 263px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+    background-size: 350px auto;
+  }
+
+  #block-section2 .money-back-guarantee {
+    bottom: -10px;
+    right: -70px;
+  }
+}
