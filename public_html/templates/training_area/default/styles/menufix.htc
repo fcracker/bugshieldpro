@@ -1,0 +1,14 @@
+<public:component>
+<script type="text/javascript">
+element.attachEvent("onmouseover", function() {
+	if(this.lastChild.nodeName == "UL") {
+		this.lastChild.style.visibility = "visible";
+	}
+});
+element.attachEvent("onmouseout", function() {
+	if(this.lastChild.nodeName == "UL") {
+		this.lastChild.style.visibility = "hidden";
+	}
+});
+</script>
+</public:component>

@@ -1,0 +1,10 @@
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/bp/
+RewriteCond %{DOCUMENT_ROOT}/bp%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/bp%{REQUEST_URI} -d
+
+RewriteRule ^(.*)$ /bp/$1 [L]

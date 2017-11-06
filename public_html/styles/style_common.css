@@ -1,0 +1,609 @@
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; background-color: #fff;}
+body
+{
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	font-size: 12px;
+}
+A:link {color: #09548B; text-decoration:none}
+a:visited {color: #09548B; text-decoration:none}
+a:active {color: #09548B; text-decoration:underline}
+A:hover {color: #09548B; text-decoration:underline}
+table, p{
+	font-size: 12px;
+}
+input { vertical-align: middle; }
+input, select, textarea{
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	font-size: 10px;
+	margin-top: 1px;
+	padding: 1px;
+}
+.copyright{
+	color: #999999;
+	font-size: 10px;
+}
+.smallFont{
+	font-size: 10px;
+}
+#headerLayer{
+	width: 100%;
+	height: 54px;
+}
+#footerLayer{
+	padding-left: 25px;
+	padding-top: 5px;
+}
+#langLayer{
+	float: right;
+	
+	padding-right: 10px;
+}
+#contentContainer{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ddddff;
+}
+.formDiv{
+	margin: 20px;
+}
+.formLayer{
+		line-height: 160%;
+}
+.formLayer fieldset{
+	border: 1px solid #ddddff;
+}
+.formLayer legend{
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	color: #eb5e00;
+	font-size: 15px;
+}
+.formLayer label{
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 150px; 
+	padding: 0;
+	margin: 3px 3px 0 20px; /* set top margin same as form input - textarea etc. elements */
+	text-align: left;
+}
+.formLayer .value{
+	padding: 2px;
+	margin: 0px 0px 5px 12px; /* set top margin same as form input - textarea etc. elements */
+	text-align: left;
+}
+.formLayer input, .formLayer textarea, .formLayer select {
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;	/* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin: 0px 0px 5px 10px;	/* set margin on left of form elements rather than right of
+							label aligns textarea better in IE */
+    font-size: 10px;
+	padding: 2px;
+	border: 1px solid #ddddff;
+}
+.formLayer input.radio {
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;				/* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin: 0px 0px 5px 11px;	/* set margin on left of form elements rather than right of
+							label aligns textarea better in IE */
+	border: 0;
+	vertical-align: middle;
+}
+.formLayer input.checkbox {
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;				/* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin: 0px 0px 5px 11px;	/* set margin on left of form elements rather than right of
+							label aligns textarea better in IE */
+	border: 0;
+	vertical-align: middle;
+}
+input.btn {
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	border: 1px solid #ffab33;
+	background: url(../images/button_bg.png) repeat-x;
+	height: 24px;
+	color: #fff;
+	padding: 0 8px;
+	font-size: 9pt;
+}
+
+
+.largerbtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffce79), color-stop(1, #eeaf41) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ce8e28;
+  padding:0 20px;
+}
+.largerbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#eeaf41;
+}
+.largerbtn:active {
+	position:relative;
+	top:1px;
+}
+
+input.btnhov {
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	border: 1px solid #ffab33;
+	background: url(../images/button_bg.png) repeat-x;
+	height: 24px;
+	color: #000;
+	padding: 0 8px;
+	font-size: 9pt;
+}
+input.gobtn {
+	font-size: 10px;
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	border: 1px solid #09548B;
+	background-color: #e9e9ff;
+	padding: 0px 5px 0px 5px;
+	color: #09548B;
+}
+input.gobtnhov {
+	font-size: 10px;
+	font-family: verdana, tahoma, arial, sans-serif, helvetica;
+	border: 1px solid #09548B;
+	background-color: #e9e9ff;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	color: #09548B;
+}
+.formLayer input.showText, .formLayer textarea.showText {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;				/* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px;	/* set margin on left of form elements rather than right of
+							label aligns textarea better in IE */
+    font-size: 12px;
+	padding: 2px;
+	border: 0px;
+	background-color: #fff;
+}
+.formLayer br{
+	clear: left;
+	line-height: 250%;
+}
+#errorMessage{
+	font-size: 12px;
+	color: #cc3333;
+	font-weight: bold;
+}
+#errorMessage li{
+	font-size: 11px;
+	color: #cc3333;
+	font-weight: normal;
+}
+.resultDiv{
+	margin: 20px;
+	padding: 10px;
+	width: auto;
+	background-color: #eff5ea;
+	border: 1px solid #3d6611;
+	color: #3d6611;
+	font-weight: bold;
+}
+.listContent{
+	margin: 20px;
+	width: auto;
+}
+.titleTable{
+	border-bottom: 1px solid #09548B;
+}
+.titleTable .titleCell{
+	color: #eb5e00;
+	font-size: 15px;
+	font-weight: bold;
+}
+.listTable{
+	border: 1px solid #dddddd;
+	margin-top: 0;
+}
+.actionsRow td{
+	font-size: 11px;
+	background: url(../images/actions_cell_bg.gif) repeat-x bottom;
+	border-bottom: 1px solid #999999;
+}
+.captionRow td{
+	color: #3d6611;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+	background-color: #e9e9ff;
+	border-left: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+.captionRow td.last{
+	color: #3d6611;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+	background-color: #e9e9ff;
+	border-left: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	border-right: 0px;
+	border-bottom: 1px solid #999999;
+}
+.searchRow td{
+	color: #333333;
+	font-size: 11px;
+	text-align: left;
+	background-color: #dddddd;
+	border-left: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+.searchRow td.last{
+	color: #333333;
+	font-size: 11px;
+	text-align: left;
+	background-color: #dddddd;
+	border-left: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	border-right: 0px;
+	border-bottom: 1px solid #999999;
+}
+.dataRow1 td{
+	font-size: 12px;
+	background-color: #ffffff;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+.dataRow1 td.last{
+	font-size: 12px;
+	background-color: #ffffff;
+	border-right: 0px;
+	border-top: 1px solid #dddddd;
+}
+
+.is-check td {
+	background-color: #DFFFBF;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	}
+
+.dataRow2 td{
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+.dataRow2 td.last{
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border-right: 0px;
+	border-top: 1px solid #dddddd;
+}
+.heightDataRow td{
+	font-size: 12px;
+	background-color: #ffeecc;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+.heightDataRow td.last{
+	font-size: 12px;
+	background-color: #ffeecc;
+	border-right: 0px;
+	border-top: 1px solid #dddddd;
+}
+.pageNav{
+	font-size: 11px;
+}
+.titleBox{
+	padding: 5px;
+	border:1px solid #999999;
+	background: url(../images/actions_cell_bg.gif) repeat-x bottom;
+	font-weight: bold;
+}
+.contentBox{
+	padding: 5px;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	background-color: #e9e9ff;
+}
+.contentBox ul{
+	margin: 0px;
+	padding: 5px 10px 5px 20px;
+}
+.contentBox ul li{
+	list-style-type: square;
+}
+.welcomeBox{
+	border: 1px solid #999999;
+	background-color: #ffeecc;
+	padding: 10px;
+}
+.rightTitle{
+	border-bottom: 1px dashed #09548B;
+	padding: 5px;
+}
+.rightBox ul{
+	margin: 0px;
+	padding: 5px 10px 5px 20px;
+}
+.rightBox ul li{
+	list-style-type: square;
+}
+
+.hidden { width: 0; height: 0; position: absolute; left: -100px; display: none; } 
+.hiddenclear { height: 0; font-size: 0; display: block; clear: both; width: 100%;}
+ body { background-image: none!important; }
+
+.wait-msg .wait-back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	z-index: 999;
+}
+
+.wait-msg .wait-icon{
+	background: url(../images/processing.png) left center no-repeat;
+	padding-left: 60px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 344px;
+	height: 75px;
+	z-index: 100000;
+}
+.wait-msg .wait-icon .wait-circle { position: absolute; background: url(../images/wait.gif) left center no-repeat; height: 50px; width: 50px; left: 12px ; top: 12px; }
+
+td.red,span.red {background-color:#FF0000;text-align:center;}
+td.green,span.green {background-color:#00FF00;text-align:center;}
+td.yellow,span.yellow {background-color:yellow;text-align:center;}
+td.grey,span.grey {background-color:grey;text-align:center;}
+
+.paginationatifraud {float:right;padding:10px;}
+.paginationatifraud span,.paginationatifraud a {float:left; padding:5px;margin-right:10px;}
+.paginationatifraud a {background-color:#333;color:#fff;}
+.paginationatifraud a.active{background-color:#fff;color:#333;}
+
+.action-wrapper {display:none; margin-bottom:5px;padding-bottom:5px;border-bottom:1px dashed #333;}
+.actions-input {width:40px;}
+
+.stats_box {
+  float:left;
+  clear:left;
+  padding:5px;
+  border:1px solid #333;
+  background-color:#efefef;
+  margin-bottom:5px;
+}
+
+.stats_box span.stats_label {
+  float:left;
+  width:250px;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  color:#333;
+  padding:5px;
+  background-color:#F0EAD6;
+}
+
+.stats_box span.stats_value {
+  float:left;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  color:#321414;
+  padding:5px;
+  background-color:#FFFAFA;
+}
+
+.stats_box_right {
+  float:right;
+  clear:left;
+  padding:5px;
+  border:1px solid #333;
+  background-color:#efefef;
+  margin-bottom:5px;
+  width:100%;
+  display:none;
+}
+
+@media (min-width: 1520px) {
+  .stats_box_right {
+    width:60%;
+    display:block;
+  }
+}
+
+
+
+.stats_box_right span.stats_label {
+  float:left;
+  width:97.65%;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  color:#333;
+  padding:5px;
+  margin-bottom:10px;
+  background-color:#F0EAD6;
+}
+
+.stats_box_right .stats_label_merchant {
+float: left;
+width: 100%;
+text-align: center;
+font-size: 16px;
+padding: 5px;
+font-weight:bold;
+}
+
+.stats_box_right table {
+  width:100%;
+}
+
+.rebill-list label {
+float:none;
+width:auto;
+}
+
+.campaign_wrapper_new {
+display:none;
+}
+
+.campaign_wrapper_new,.campaign_wrapper {
+  margin:10px;
+  padding:5px;
+  border:1px solid #333;
+  float:left;
+  font-size:15px;
+}
+
+.campaign_wrapper_new  span,.campaign_wrapper span {
+  float:left;
+  width:100px;
+  margin-right:10px;
+  margin-bottom:10px;
+  clear:left;
+}
+
+.campaign_wrapper_new input,.campaign_wrapper input {
+  float:left;
+}
+
+.campaign_wrapper_new .campaign_tf,.campaign_wrapper .campaign_tf {
+  padding:3px;
+  font-size:17px;
+}
+
+.email_submit {
+  float:left;
+  padding:5px;
+  text-align:center;
+  font-size:16px;
+  clear:left;
+}
+
+#split_wrapper {
+  float:right;
+  margin:5px;
+  padding:5px;
+  border:1px solid #333;
+}
+
+.split_stats {
+  background-color:#333;
+}
+
+.split_stats th,.split_stats td {
+  background-color:#fff;
+}
+
+table.merchant_stats_data {
+  background:#000;  
+}
+
+table.merchant_stats_data th ,table.merchant_stats_data td{
+  background:#efefef;
+  padding:3px;
+  text-align:center;
+}
+
+.grip{
+	width:20px;
+	height:30px;
+	margin-top:-3px;
+	background-image:url('../admin/images/grip.png');
+	margin-left:-5px;
+	position:relative;
+	z-index:88;
+	cursor:e-resize;
+}
+
+.grip:hover{
+	background-position-x:-20px;
+}
+
+.dragging .grip{
+	background-position-x:-40px;
+}
+
+.action_label {
+  width:120px;
+  margin-right:20px;
+  float:left;
+}
+
+.actions-input-long {
+  width:80%;
+}
+
+.merchant_detail_form h3 {
+  color:#eb5e00;
+}
+
+.merchant_detail_form h4 {
+  color:#ab5e00;
+}
+
+#add_rebill_fwd_rule {
+
+float:left;
+margin-left:20px;
+
+}
+
+#rebill_fwd_wrapper {
+  margin-left:20px;
+}
+
+.red-email{
+    color:red;
+}
+/**
+ * css for yellow row on order.php
+ */
+.yellow-flag td{
+    background-color: yellow !important;
+}
+
+.red-flag td{
+    color: red !important;
+}

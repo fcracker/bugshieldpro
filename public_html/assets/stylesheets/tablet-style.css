@@ -1,0 +1,89 @@
+.container {
+	width: 960px;
+}
+
+.main-navigation ul li a {
+    margin: 0 6px;
+}
+
+.sect3-box {
+	width: 27.77%;
+}
+
+.sect3-box p {
+    height: 200px;
+}
+
+.sect3-box h5 {
+    height: 40px;
+}
+
+.bbfree {
+    max-width: 100%;
+    height: auto;
+}
+
+.or-arr2 {
+    left: 45px;
+}
+
+.customers-verified {
+    right: -130px;
+}
+
+.customer-review .customer-say {
+    max-width: 650px;
+}
+
+.saybout-customerserv {
+    width: 755px;
+    max-width: 755px;
+}
+
+.text-cont {
+max-width: 177px;
+}
+
+.section3-box2 .text-cont2 {
+    max-width: 413px;
+}
+
+.usamade {
+    right: 200px;
+}
+
+.cv2 .customers-verified {
+    right: -35px;
+}
+
+.bed-box {
+    width: 27%;
+}
+
+.or-arr3 {
+    left: -10px;
+}
+
+.yw-arr {
+    left: -30px;
+}
+
+.approved {
+    left: 0;
+}
+
+.customers-verified {
+    top: 100px;
+    right: 20px;
+    width: 170px;
+    height: 120px;
+    background-size: contain;
+}
+
+.guarantee-texts {
+    right: -25px;
+}
+
+.yw-arr2 {
+    right: -25px;
+}

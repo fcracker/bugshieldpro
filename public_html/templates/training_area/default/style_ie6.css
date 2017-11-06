@@ -1,0 +1,8 @@
+/* Reset default browser styles */
+@import url('styles/reset_ie6.css');
+
+/* Rebuild default browser styles */
+@import url('styles/rebuild_ie6.css');
+
+/* Design styles */
+@import url('styles/default_ie6.css');

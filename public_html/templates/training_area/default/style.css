@@ -1,0 +1,8 @@
+/* Reset default browser styles */
+@import url('styles/reset.css');
+
+/* Rebuild default browser styles */
+@import url('styles/rebuild.css');
+
+/* Design styles */
+@import url('styles/default.css');

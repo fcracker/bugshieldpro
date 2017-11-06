@@ -1,0 +1,10 @@
+Array
+(
+    [days] => 365
+    [mem_auth_user] => 100|6bcebb8d2b50ca2802c4124187c98bb4|3594|2011-09-28 16:16:46|174.29.172.107
+    [mem_auth_groups] => .1-98fb310660d38e6731a75ca897487a5b.
+    [PHPSESSID] => 9ee2f4c79153be58fafb69b765c1d588
+    [WRUID] => 0
+    [__utma] => 40246524.2087845032.1309457357.1315873657.1316732870.39
+    [__utmz] => 40246524.1316732870.39.3.utmcsr=mail.google.com|utmccn=(referral)|utmcmd=referral|utmcct=/mail/u/0/
+)

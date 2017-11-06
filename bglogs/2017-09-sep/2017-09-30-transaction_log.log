@@ -1,0 +1,33 @@
+30-09-2017 01:55:21
+Params:
+Array
+(
+    [paymentType] => Sale
+    [firstName] => Raven
+    [lastName] => awdawdawdawd
+    [cardname] => Raven awdawdawdawd
+    [creditCardType] => Visa
+    [creditCardNumber] => 4111X1111
+    [expDateYear] => 2017
+    [expDateMonth] => 01
+    [cvv2Number] => XXXX
+    [address1] => awdawd
+    [address2] => 
+    [city] => AWd
+    [state] => awdawd
+    [zip] => awd
+    [country] => US
+    [phone] => awd
+    [email] => awdawd@dawdawd.com
+    [amount] => 146.48
+    [transaction_description] => 4 items
+    [forward_cvv] => 1
+)
+
+Received:
+Array
+(
+)
+
+
+--------------------------

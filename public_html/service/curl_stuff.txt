@@ -1,0 +1,44 @@
+
+
+ ------------ 
+
+15-Jan-2015 15:22:11
+
+array (
+  'url' => 'https://secure.networkmerchants.com/api/transact.php',
+  'content_type' => 'text/html; charset=UTF-8',
+  'http_code' => 200,
+  'header_size' => 133,
+  'request_size' => 358,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 1.387138999999999899870317676686681807041168212890625,
+  'namelookup_time' => 0.1277049999999999574384901279699988663196563720703125,
+  'connect_time' => 0.16961199999999998500044284810428507626056671142578125,
+  'pretransfer_time' => 0.310043999999999986272314345114864408969879150390625,
+  'size_upload' => 99,
+  'size_download' => 138,
+  'speed_download' => 99,
+  'speed_upload' => 71,
+  'download_content_length' => 138,
+  'upload_content_length' => 99,
+  'starttransfer_time' => 1.387089000000000016399326341343112289905548095703125,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '216.35.170.16',
+  'primary_port' => 443,
+  'local_ip' => '184.171.252.122',
+  'local_port' => 48198,
+  'redirect_url' => '',
+  'request_header' => 'POST /api/transact.php HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+Host: secure.networkmerchants.com
+Accept: */*
+Content-Length: 99
+Content-Type: application/x-www-form-urlencoded
+
+',
+)

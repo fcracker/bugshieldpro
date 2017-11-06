@@ -1,0 +1,46 @@
+Link Posting Certification Guide
+
+<style type="text/css">
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+</style>
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top" align="left">
+                            <p>
+							I have attached the exercise you are required to do for link posting certification.
+							<br />
+							You can submit the results directly to me.
+							</p>
+
+							<p>
+							Once you pass certification you can be paid to post links. If you have
+							<br />
+							any questions, please feel free to ask them.
+							</p>
+
+							<p>
+							You can begin to be paid to post links as quickly as two weeks.
+							</p>
+
+							<p>
+							If you have any further questions about posting links or the link posting certification, please do not hesitate to reply to this email with your questions.
+							</p>
+
+							<p>
+							Best Regards,
+							<br />
+							Mark Bradley
+							<br />
+							Internet Profit Packet, LLC
+							</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

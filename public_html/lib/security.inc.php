@@ -1,0 +1,4 @@
+<?php $___referrerHost = "";
+/*
+if(isset($_SERVER['HTTP_REFERER'])) {	$p = parse_url($_SERVER['HTTP_REFERER']);	$___referrerHost = $p['host'];
+}$___referrerHost == $_SERVER['HTTP_HOST'] or die('	<html>		<head>			<title>Unauthorized Acess!</title>			<style type="text/css">				* { margin: 0; padding: 0; font-family: arial, helvetica, sans-serif; }				.error { margin: 30px 40px; background-color: rgb(252, 228, 228); border: 1px solid rgb(243, 160, 160); padding: 25px; font-weight: bold; border-radius: 15px; -moz-border-radius: 15px; color: red; }				.error-body { color: #000; margin-top: 20px; }			</style>		</head>		<body>			<div class="error">				<h1 class="error-title">UNAUTHORIZED ACCESS!</h1>				<div class="error-body">Direct access to this page is subject to the Online Trade Training.</div>			</div>		</body>	</html>');*/?>
