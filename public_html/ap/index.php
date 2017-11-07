@@ -10,10 +10,10 @@
   <meta name="description" content="BugShieldPRO">
   <meta name="author" content="SMD">
 
-  <link rel="stylesheet" href="../assets/stylesheets/style.css?v=2017101600">
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/style.css?v=2017101600">
   <link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive.css?v=2017101600">
   <link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive2.css?v=2017101600">
-  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/ap.css?v=2017110400">
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/ap.css?v=2017110700">
 
   <link rel="stylesheet" href="../assets/stylesheets/normalize.css">
   <link rel="stylesheet" href="../assets/stylesheets/demo.css">
@@ -41,7 +41,7 @@
     </div>
   </nav>
   <div class="site-overlay"></div>
-  <div class="top">
+  <div class="top home">
     <div class="container">
       <div class="menu-btn-shadow">
         <button class="menu-btn">&#9776;</button>
@@ -59,6 +59,7 @@
           <li><a href="bug-shield-pro-step-2.php">ORDER</a></li>
         </ul>
       </div>
+      <a class='customer-care' href='tel:+18555430054'>Customer care 1-855-543-0054</a>
     </div>
   </div>
   <div class="section" id="block-section1">

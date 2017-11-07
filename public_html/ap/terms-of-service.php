@@ -13,9 +13,10 @@ $geo = get_geo_data();
 <meta name="description" content="BugShieldPRO">
 <meta name="author" content="SMD">
 
-<link rel="stylesheet" href="../assets/stylesheets/style.css">
-<link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive.css">
-<link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive2.css">
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/style.css?v=2017101600">
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive.css?v=2017101600">
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/responsive2.css?v=2017101600">
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/ap.css?v=2017110700">
 
 <link rel="stylesheet" href="../assets/stylesheets/normalize.css">
 <link rel="stylesheet" href="../assets/stylesheets/demo.css">
@@ -30,8 +31,9 @@ $geo = get_geo_data();
 	<div class="top">
 		<div class="container">
 			<div class="top-logo">
-				<a href="bug-shield-pro.php"><img src="../assets/images/bugshieldpro-logo.png" alt=""/></a>
+				<a href="#"><img src="../assets/images/bugshieldpro-logo.png" alt=""/></a>
 			</div>
+			<a class='customer-care' href='tel:+18555430054'>Customer care 1-855-543-0054</a>
 		</div>
 	</div>
 	<div class="section" id="block-section11">
