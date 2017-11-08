@@ -134,5 +134,6 @@ Is Shipped Today And Arrives In Just Days!</h3>
 		});
     });
     </script>
+		<?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>

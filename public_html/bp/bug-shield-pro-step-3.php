@@ -431,5 +431,6 @@ associated bank account. There is no commitment and no minimum to buy.</p>
 		});
     });
     </script>
+		<?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>

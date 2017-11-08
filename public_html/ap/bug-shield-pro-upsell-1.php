@@ -157,5 +157,6 @@ src="//www.googleadservices.com/pagead/conversion/831023865/?value=36.95&currenc
 		});
     });
     </script>
+		<?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>

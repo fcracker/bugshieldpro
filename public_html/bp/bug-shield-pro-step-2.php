@@ -342,5 +342,6 @@ $_SESSION['datetimer'] = NULL;
 		});
     });
     </script>
+    <?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>
