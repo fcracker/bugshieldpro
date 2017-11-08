@@ -244,5 +244,6 @@ $t->clear_data();
 			</div>
 		</div>
 	</div>
+	<?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>

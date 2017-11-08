@@ -607,6 +607,7 @@ noIpFraud();
   <!-- jQuery -->
   <script src="../assets/javascripts/jquery.min.js"></script>
   <script src="../assets/javascripts/pushy.min.js"></script>
+  <?php include("../inc/zopim_chat.php"); ?>
 </body>
 
 </html>

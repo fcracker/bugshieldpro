@@ -416,5 +416,6 @@ If you have any questions about the Agreement or about the practices of BugShiel
 			</div>
 		</div>
 	</div>
+	<?php include("../inc/zopim_chat.php"); ?>
 	</body>
 </html>
