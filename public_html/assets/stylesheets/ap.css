@@ -1,8 +1,8 @@
-.top-logo {
+.top.home .top-logo {
   position: relative;
 }
 
-.top-logo:before {
+.top.home .top-logo:before {
   content: '';
   display: block;
   width: 75px;
@@ -13,6 +13,30 @@
   background: transparent url('../images/moneyback.png') no-repeat center center;
   background-size: 75px auto;
   z-index: 999;
+}
+
+.top .top-logo {
+  float: none;
+}
+
+.top .top-logo a {
+  display: block;
+  width: 258px;
+  height: 106px;
+  margin: 0 auto;
+}
+
+.top .customer-care {
+  display: block;
+  width: 203px;
+  height: 13px;
+  margin: -15px auto 20px;
+  background: transparent url('../images/customer-care-s.png') no-repeat left center;
+  text-indent: -9999px;
+}
+
+.top.home .customer-care {
+  width: 223px;
 }
 
 #block-section1 .container {
@@ -72,20 +96,62 @@
 }
 
 @media (min-width: 480px) {
-  .top-logo:before {
+  .top.home .top-logo:before {
     width: 101px;
     height: 76px;
     bottom: auto;
     top: 50%;
     right: -130px;
-    margin-top: -38px;
+    margin-top: -28px;
     background-size: 101px auto;
+  }
+
+  .top .top-logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .top.home .top-logo {
+    float: left;
+    margin: 0;
+  }
+
+  .top.home .customer-care {
+    float: left;
+    margin: -15px 20px 20px;
   }
 }
 
 @media (min-width: 768px) {
-  .top-logo::before {
+  .top.home .top-logo::before {
     content: none;
+  }
+
+  .top .top-logo, .top.home .top-logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .top .customer-care {
+    width: 223px;
+    height: 106px;
+    margin: 0 30px 0 10px;
+    background-image: url('../images/customer-care-l.png');
+    float: right;
+  }
+
+  .top.home .main-navigation {
+    margin-top: 25px;
+  }
+
+  .top.home .customer-care {
+    float: right;
+    width: 203px;
+    height: 13px;
+    background-image: url('../images/customer-care-s.png');
+    margin: 10px 10px 0 0;
   }
 
   #block-section1 .container {
@@ -165,6 +231,23 @@
 }
 
 @media (min-width: 1280px) {
+  .top.home .main-navigation {
+    margin-top: 35px;
+    float: left;
+  }
+
+  .top.home .main-navigation li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .top.home .customer-care {
+    width: 223px;
+    height: 106px;
+    background-image: url('../images/customer-care-l.png');
+    margin: -60px -140px 0 0;
+  }
+
   #block-section1 .container {
     padding-top: 100px;
   }
@@ -186,5 +269,11 @@
   #block-section2 .money-back-guarantee {
     bottom: -10px;
     right: -70px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .top.home .customer-care {
+    margin: 0 -180px 0 0;
   }
 }
